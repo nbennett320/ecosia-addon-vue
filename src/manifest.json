@@ -1,18 +1,16 @@
 {
-  "version": "1.0.0",
+  "version": "0.1.2",
   "manifest_version": 2,
-  "name": "__MSG_extName__",
-  "homepage_url": "http://localhost:8080/",
-  "description": "A Vue Browser Extension",
+  "name": "Ecosia Addon in Vue",
+  "homepage_url": "http://github.com/nbennett320/ecosia-addon-vue",
+  "description": "An easier way to plant trees.",
   "default_locale": "en",
   "permissions": [
     "activeTab",
-    "<all_urls>",
     "*://*.ecosia.org/*"
   ],
   "icons": {
-    "16": "icons/16.png",
-    "48": "icons/48.png",
+    "64": "icons/64.png",
     "128": "icons/128.png"
   },
   "background": {
@@ -32,10 +30,10 @@
     }
   ],
   "browser_action": {
-    "default_title": "__MSG_extName__",
+    "default_title": "Ecosia Addon in Vue",
     "default_icon": {
-      "19": "icons/19.png",
-      "38": "icons/38.png"
+      "64": "icons/64.png",
+      "128": "icons/128.png"
     }
   }
 }
