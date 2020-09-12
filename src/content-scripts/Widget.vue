@@ -1,7 +1,13 @@
 <template>
-  <div id="v-ecosia-widget-container" class="widget-container">
+  <div 
+    id="ew--container" 
+    class="ew--card-container"
+  >
     <!-- replace me! -->
-    <ExampleComponent :query="query" />
+    <ExampleComponent 
+      :query="query"
+      
+    />
     <Footer />
   </div>
 </template>
@@ -20,8 +26,9 @@ export default {
 }
 </script>
 
-<style scoped>
-#v-ecosia-widget-container {
+<style>
+@import '../assets/css/styles.css';
+#ew--container {
   padding: 0;
 }
 </style>

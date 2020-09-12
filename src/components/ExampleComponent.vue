@@ -1,7 +1,14 @@
 <template>
-  <div class="v-ecosia-component">
-      <i> Ecosia Addon in Vue says: </i>
-      <p class="v-component-content"> {{ query }} </p>
+  <div class="ew--card">
+      <h5 class="ew--card-header ew--card-title">
+        Ecosia Addon in Vue
+      </h5>
+      <h6 class="ew--card-header ew--card-subtitle">
+        An easier way to plant trees
+      </h6>
+      <p class="ew--card-text"> 
+        {{ query }} 
+      </p>
   </div>
 </template>
 
@@ -13,19 +20,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.v-ecosia-component {
-  padding: 30px 10px;
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
-  color: #aaa;
-}
-
-.v-component-content {
-  margin: 0;
-  font-size: 24px;
-  color: #4a4a4a;
-}
-</style>

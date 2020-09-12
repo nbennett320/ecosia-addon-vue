@@ -1,0 +1,88 @@
+/* general styles for ecosia widgets (ew) */
+.ew--card-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  text-align: left;
+}
+
+.ew--card {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.ew--card-header {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  margin-top: 0;
+}
+
+.ew--card-title {
+  font-size: 1.25rem;
+  margin-bottom: .75rem;
+}
+
+.ew--card-subtitle {
+  font-size: 1.25rem;
+  margin-top: -.375rem;
+  margin-bottom: .5rem !important;
+  color: #6c757d !important;
+  font-size: 1.00rem !important;
+}
+
+.ew--card-text {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.ew--link {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.ew--card-footer {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  padding: 10px 20px;
+  border-top: 1px solid #ededed;
+}
+
+.ew--card-footer-link {
+  margin-left: auto;
+  color: #9b9b9b;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.ew--card-footer-link:hover {
+  text-decoration: underline;
+}
