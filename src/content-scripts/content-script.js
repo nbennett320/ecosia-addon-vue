@@ -11,7 +11,8 @@ if(queryMatches(query)) {
   new Vue({
     render: h => h(Widget, {
       props: {
-        query
+        query,
+        isPanel: query.includes("use panel")
       }
     }),
   }).$mount(content[0])

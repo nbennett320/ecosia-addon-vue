@@ -1,27 +1,27 @@
 <template>
-  <div 
-    id="ew--container" 
-    class="ew--card-container"
-  >
-    <!-- replace me! -->
-    <ExampleComponent 
+  <div id="ew--container">
+    <Panel 
+      v-if="isPanel"
       :query="query"
-      
     />
-    <Footer />
+    <Card 
+      v-else
+      :query="query"
+    />
   </div>
 </template>
 
 <script>
-import { ExampleComponent, Footer } from '../components'
+import { Panel, Card } from '../components'
 export default {
   name: "Widget",
   components: {
-    ExampleComponent,
-    Footer
+    Panel,
+    Card
   },
   props: {
-    query: String
+    query: String,
+    isPanel: Boolean
   }
 }
 </script>
