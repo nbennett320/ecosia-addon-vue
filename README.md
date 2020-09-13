@@ -15,7 +15,7 @@
 This is boilerplate code for making a search extension for Ecosia. It allows developers to easily create cool features like DuckDuckGo's [password generation feature](https://duckduckgo.com/?q=password+strong+12&ia=answer) _[(more info)](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/)_ or Google(🤢)'s [timer feature](https://www.google.com/search?q=timer) with Vue. I originally made this same plugin in React, but shortly after found that [Ecosia uses Vue](https://builtwith.com/ecosia.org), so I finally took a bit of time to rewrite it in hopes that this tool will be put to good use some day.
 My example plugin just parses the Ecosia searchbar and echos it into an example component I threw together... but other useful and creative additions are more than welcome (that _is_ why I made this tool after all)! The idea is that cool new features will help reel in new users to Ecosia, and new Ecosia users === more trees planted 🌳💞.
 <br />
-With this tool, Ecosia search results and instant answers are limited only by your imagination! 
+With this tool, Ecosia search results and instant answers are limited only by your imagination! My goal is to merge any widgets I or other developers make into one repo, called __Ecosia++__.
 <br />
 In its current state, this repo includes two types of components &mdash; a card component and a panel component (pictured below, they're pretty heavily based on similar bootstrap components).
 <br />
